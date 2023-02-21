@@ -24,7 +24,7 @@
   查询 **filepusher info日志**  没有刷POST传文件日志  <br>
   
 * 处理方法：<br><br>
-  1、检查 v1.5安装包是否执行
+  1、检查 **主控服务器** v1.5安装包是否执行
     ```
     windows: update.bat up
     linux: update.sh up 
