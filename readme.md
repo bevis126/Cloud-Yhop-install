@@ -32,7 +32,12 @@
   ![image](https://user-images.githubusercontent.com/27944125/220278691-bb091853-0db8-4f2b-bd36-1b1bab360293.png) <br><br>
 
   2、 检查是否配置了文件<br><br>
-    在中心化运维平台中的 **主控节点**
+    在中心化运维平台中的 **主控节点** 的 **文件服务** 是否配置
+    >默认的 x-upstream 地址前置多了一个 */* 斜杠，需要去掉，然后点保存 <br>
+
+
+    ![image](https://user-images.githubusercontent.com/27944125/220286151-9f0c2496-70bc-45d4-890a-e3364ddf08de.png)
+
 
   3、检查 **前置服务器 webserver的ops配置** 是否正确配置
     ```
