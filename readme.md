@@ -31,13 +31,16 @@
     ```
   ![image](https://user-images.githubusercontent.com/27944125/220278691-bb091853-0db8-4f2b-bd36-1b1bab360293.png) <br><br>
 
-  2、检查 **前置服务器 webserver的ops配置** 是否正确配置
+  2、 检查是否配置了文件<br><br>
+    在中心化运维平台中的 **主控节点**
+
+  3、检查 **前置服务器 webserver的ops配置** 是否正确配置
     ```
     根据实际安全路径进行调整
     windows: D:\\apps\app\webserver\conf\location\ops.conf 
     linux: /apps/app/webserver/conf/location/ops.conf
     ```
-    把图中的方框部分删除，保留第一个 *location /ops/*  即可<br><br>
+    把图中的方框部分删除，保留第一个 *location /ops/*  即可（需要重启前置的webserver）<br><br>
     ![image](https://user-images.githubusercontent.com/27944125/220280688-4a25bbfa-b7cd-4071-8d31-9c63abc1575a.png)
 
-
+  
